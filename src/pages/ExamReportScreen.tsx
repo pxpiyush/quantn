@@ -33,7 +33,7 @@ export default function ExamReportScreen() {
     <PageTransition>
       <div className="min-h-screen bg-background px-5 pt-14 pb-10">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-          <p className="text-[13px] font-black tracking-tight text-foreground mb-3 opacity-60">REAZN</p>
+          <p className="text-[13px] font-black tracking-tight text-foreground mb-3 opacity-60">NUMEN</p>
           <div className="h-px bg-border mb-4" />
           <h1 className="text-hero text-foreground">REPORT</h1>
 
