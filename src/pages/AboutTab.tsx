@@ -48,7 +48,7 @@ export default function AboutTab() {
               <div>
                 <p className="text-xs font-bold tracking-widest-custom text-muted-foreground mb-1">WHAT IS NUMEN?</p>
                 <p className="text-xs text-muted-foreground leading-relaxed">
-                  NUMEN is a free, offline-first mathematics practice platform for SSC, Banking, Railways and all competitive exam aspirants. Practice arithmetic, take mock tests, track your mistakes and improve daily.
+                  QUANTN is a free, first mathematics practice platform for SSC, Banking, Railways and all competitive exam aspirants. Practice arithmetic, take mock tests, track your mistakes and improve daily.
                 </p>
               </div>
             </div>
