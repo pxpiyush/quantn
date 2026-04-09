@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Zap, FileText, Lock, MessageSquareText, Shapes } from "lucide-react";
+import { Zap, FileText, Lock, Calculator, Sigma } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 import PressableCard from "@/components/PressableCard";
 import PageTransition from "@/components/PageTransition";
@@ -42,7 +42,7 @@ export default function ExamsTab() {
           {/* PYQs Section */}
           <p className="text-[10px] font-bold tracking-widest-custom text-muted-foreground pt-4">PREVIOUS YEAR QUESTIONS</p>
 
-          {/* Verbal */}
+          {/* Arithmetic */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.08 }}>
             <PressableCard
               lift
@@ -50,16 +50,16 @@ export default function ExamsTab() {
               className="flex items-center gap-4"
             >
               <div className="w-11 h-11 rounded-xl bg-secondary flex items-center justify-center shrink-0">
-                <MessageSquareText size={20} className="text-foreground" />
+                <Calculator size={20} className="text-foreground" />
               </div>
               <div className="flex-1">
-                <p className="font-bold text-sm text-foreground">Verbal Reasoning</p>
-                <p className="text-xs text-muted-foreground">Coding & Decoding, Alphabet Test and more chapter-wise PYQs</p>
+                <p className="font-bold text-sm text-foreground">Arithmetic</p>
+                <p className="text-xs text-muted-foreground">Ratio, Proportion and more chapter-wise PYQs</p>
               </div>
             </PressableCard>
           </motion.div>
 
-          {/* Non-Verbal */}
+          {/* Advanced Maths */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.16 }}>
             <PressableCard
               className="flex items-center gap-4 opacity-50 cursor-not-allowed"
@@ -68,8 +68,8 @@ export default function ExamsTab() {
                 <Lock size={20} className="text-foreground" />
               </div>
               <div className="flex-1">
-                <p className="font-bold text-sm text-foreground">Non-Verbal Reasoning</p>
-                <p className="text-xs text-muted-foreground">Figure series, mirror images, pattern completion — coming soon</p>
+                <p className="font-bold text-sm text-foreground">Advanced Maths</p>
+                <p className="text-xs text-muted-foreground">Algebra, Trigonometry, Geometry, Mensuration — coming soon</p>
               </div>
               <Lock size={14} className="text-muted-foreground" />
             </PressableCard>

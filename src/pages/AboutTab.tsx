@@ -17,7 +17,7 @@ export default function AboutTab() {
     <PageTransition>
       <div className="min-h-screen pb-28 bg-background">
         <div className="pt-12">
-          <PageHeader hero="ABOUT" subtitle="Built with love for every aspirant out there. Meet the developer, toggle your theme, and connect with REAZN." />
+          <PageHeader hero="ABOUT" subtitle="Built with love for every aspirant out there. Meet the developer, toggle your theme, and connect with NUMEN." />
         </div>
 
         <div className="px-6 space-y-4 mt-4">
@@ -46,9 +46,9 @@ export default function AboutTab() {
             <div className="flex items-start gap-3">
               <Info size={16} className="text-muted-foreground mt-0.5 shrink-0" />
               <div>
-                <p className="text-xs font-bold tracking-widest-custom text-muted-foreground mb-1">WHAT IS REAZN?</p>
+                <p className="text-xs font-bold tracking-widest-custom text-muted-foreground mb-1">WHAT IS NUMEN?</p>
                 <p className="text-xs text-muted-foreground leading-relaxed">
-                  REAZN is a free, offline-first reasoning practice platform for SSC, Banking, Railways and all competitive exam aspirants. Practice verbal reasoning, take mock tests, track your mistakes and improve daily.
+                  NUMEN is a free, offline-first mathematics practice platform for SSC, Banking, Railways and all competitive exam aspirants. Practice arithmetic, take mock tests, track your mistakes and improve daily.
                 </p>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function AboutTab() {
 
           {/* Actions */}
           <div className="grid grid-cols-2 gap-3">
-            <PressableCard lift onClick={() => window.open("https://instagram.com/reaznapp", "_blank")} className="flex flex-col items-center justify-center py-5">
+            <PressableCard lift onClick={() => window.open("https://instagram.com/numenapp", "_blank")} className="flex flex-col items-center justify-center py-5">
               <Heart size={18} className="text-foreground mb-2" />
               <p className="text-[10px] font-bold tracking-widest-custom text-muted-foreground text-center">FOLLOW US</p>
             </PressableCard>
@@ -133,7 +133,7 @@ export default function AboutTab() {
           </PressableCard>
 
           {/* Version */}
-          <p className="text-center text-[10px] text-muted-foreground/50 pt-4">REAZN v1.0 · Made with ❤️ in India 🇮🇳</p>
+          <p className="text-center text-[10px] text-muted-foreground/50 pt-4">NUMEN v1.0 · Made with ❤️ in India 🇮🇳</p>
         </div>
       </div>
     </PageTransition>

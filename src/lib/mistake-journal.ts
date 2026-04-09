@@ -9,7 +9,7 @@ export interface MistakeEntry {
   timestamp: number;
 }
 
-const STORAGE_KEY = "reazn-mistakes";
+const STORAGE_KEY = "numen-mistakes";
 
 function load(): MistakeEntry[] {
   try {
@@ -25,7 +25,6 @@ function save(entries: MistakeEntry[]) {
 
 export function saveMistake(entry: MistakeEntry) {
   const all = load();
-  // Deduplicate by question text
   if (all.some((m) => m.question === entry.question)) return;
   all.push(entry);
   save(all);

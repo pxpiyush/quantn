@@ -1,4 +1,4 @@
-const KEY = "reazn-momentum";
+const KEY = "numen-momentum";
 
 export function getMomentum(): number {
   return parseInt(localStorage.getItem(KEY) || "0", 10);

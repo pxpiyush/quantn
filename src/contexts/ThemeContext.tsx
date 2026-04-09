@@ -12,12 +12,12 @@ const ThemeContext = createContext<ThemeContextType>({ theme: "dark", toggleThem
 
 export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [theme, setThemeState] = useState<Theme>(() => {
-    const saved = localStorage.getItem("reazn-theme");
+    const saved = localStorage.getItem("numen-theme");
     return (saved === "light" || saved === "dark") ? saved : "light";
   });
 
   useEffect(() => {
-    localStorage.setItem("reazn-theme", theme);
+    localStorage.setItem("numen-theme", theme);
     document.documentElement.classList.toggle("dark", theme === "dark");
   }, [theme]);
 
