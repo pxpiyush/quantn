@@ -1,13 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Code, FileText } from "lucide-react";
+import { Divide, Equal } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 import PressableCard from "@/components/PressableCard";
 import PageTransition from "@/components/PageTransition";
 
 const chapters = [
-  { title: "Coding & Decoding", icon: Code, subtitle: "Solve real exam questions on letter and number coding patterns", path: "/exams/setup/coding-decoding" },
-  { title: "English Alphabet Test", icon: FileText, subtitle: "Previous year questions on alphabet positions and sequences", path: "/exams/setup/alphabet" },
+  { title: "Ratio", icon: Divide, subtitle: "Solve real exam questions on ratio and comparison problems", path: "/exams/setup/coding-decoding" },
+  { title: "Proportion", icon: Equal, subtitle: "Previous year questions on direct and inverse proportion", path: "/exams/setup/alphabet" },
 ];
 
 export default function VerbalPYQScreen() {
@@ -18,7 +18,7 @@ export default function VerbalPYQScreen() {
       <div className="min-h-screen pb-28 bg-background">
         <div className="pt-12">
           <PageHeader
-            hero="VERBAL PYQs"
+            hero="ARITHMETIC PYQs"
             subtitle="Practice previous year questions chapter-wise. Pick a topic and solve real exam questions to understand patterns."
           />
         </div>

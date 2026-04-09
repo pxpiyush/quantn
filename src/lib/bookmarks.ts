@@ -8,7 +8,7 @@ export interface BookmarkEntry {
   timestamp: number;
 }
 
-const STORAGE_KEY = "reazn-bookmarks";
+const STORAGE_KEY = "numen-bookmarks";
 
 function load(): BookmarkEntry[] {
   try {
@@ -28,11 +28,11 @@ export function toggleBookmark(entry: BookmarkEntry): boolean {
   if (idx >= 0) {
     all.splice(idx, 1);
     save(all);
-    return false; // removed
+    return false;
   }
   all.push(entry);
   save(all);
-  return true; // added
+  return true;
 }
 
 export function isBookmarked(question: string): boolean {

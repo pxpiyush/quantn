@@ -1,14 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Hash, ArrowLeftRight, Clock, Lock } from "lucide-react";
+import { Divide, Equal, Clock, Lock } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 import PressableCard from "@/components/PressableCard";
 import PageTransition from "@/components/PageTransition";
 
 const concepts = [
-  { icon: Hash, title: "Alphabet Place Value", desc: "Learn A=1, B=2 ... Z=26 patterns and EJOTY anchors", path: "/learn/alphabet-values" },
-  { icon: ArrowLeftRight, title: "Reverse Letter Pairs", desc: "Master A↔Z, B↔Y ... M↔N opposite letter shortcuts", path: "/learn/reverse-pairs" },
-  { icon: Clock, title: "Digital Clock Reasoning", desc: "Time-based coding patterns — coming soon", path: null },
+  { icon: Divide, title: "Ratio", desc: "Learn how to compare quantities, simplify ratios and solve problems", path: "/learn/alphabet-values" },
+  { icon: Equal, title: "Proportion", desc: "Master direct, inverse and compound proportion concepts", path: "/learn/reverse-pairs" },
+  { icon: Clock, title: "Percentage", desc: "Percentage conversions and applications — coming soon", path: null },
 ];
 
 export default function LearnVerbalScreen() {
@@ -18,7 +18,7 @@ export default function LearnVerbalScreen() {
     <PageTransition>
       <div className="min-h-screen pb-28 bg-background">
         <div className="pt-12">
-          <PageHeader hero="VERBAL" subtitle="Learn the core verbal reasoning concepts — alphabet values, reverse pairs, and coding tricks that appear in every exam." />
+          <PageHeader hero="ARITHMETIC" subtitle="Learn the core arithmetic concepts — ratio, proportion, and percentage tricks that appear in every exam." />
         </div>
 
         <div className="px-6 space-y-3 mt-4">

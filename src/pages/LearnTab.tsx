@@ -1,22 +1,22 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { MessageSquareText, Shapes, Lock } from "lucide-react";
+import { Calculator, Sigma, Lock } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 import PressableCard from "@/components/PressableCard";
 import PageTransition from "@/components/PageTransition";
 
 const domains = [
   {
-    icon: MessageSquareText,
-    title: "Verbal Reasoning",
-    subtitle: "Alphabet positions, reverse pairs, coding patterns and letter sequences",
-    path: "/learn/verbal",
+    icon: Calculator,
+    title: "Arithmetic",
+    subtitle: "Ratio, Proportion, Percentage, Profit & Loss and fundamental concepts",
+    path: "/learn/arithmetic",
     locked: false,
   },
   {
-    icon: Shapes,
-    title: "Non-Verbal Reasoning",
-    subtitle: "Figure series, mirror images, embedded figures — coming soon",
+    icon: Sigma,
+    title: "Advanced Maths",
+    subtitle: "Algebra, Trigonometry, Geometry, Mensuration — coming soon",
     path: null,
     locked: true,
   },
@@ -29,7 +29,7 @@ export default function LearnTab() {
     <PageTransition>
       <div className="min-h-screen pb-44 bg-background">
         <div className="pt-12">
-          <PageHeader hero="CONCEPTS" subtitle="Master the fundamental logic behind every reasoning topic. Choose a domain to explore tricks, techniques and shortcuts." />
+          <PageHeader hero="CONCEPTS" subtitle="Master the fundamental concepts behind every mathematics topic. Choose a domain to explore formulas, techniques and shortcuts." />
         </div>
 
         <div className="px-6 space-y-3 mt-4">

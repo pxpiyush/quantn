@@ -17,9 +17,9 @@ export default function SplashScreen() {
         animate={{ opacity: 1, scale: 1 }}
         className="text-center"
       >
-        <h1 className="text-massive animate-pulse-opacity text-foreground">REAZN</h1>
+        <h1 className="text-massive animate-pulse-opacity text-foreground">NUMEN</h1>
         <p className="text-xs font-semibold tracking-widest-custom text-muted-foreground mt-3">
-          REASONING, REWIRED !
+          MATHEMATICS, MASTERED !
         </p>
       </motion.div>
       <p className="absolute bottom-8 text-xs text-muted-foreground tracking-widest-custom">

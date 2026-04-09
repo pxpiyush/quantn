@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { MessageSquareText, Shapes, Lock, Flame } from "lucide-react";
+import { Calculator, Sigma, Lock, Flame } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 import PressableCard from "@/components/PressableCard";
 import PageTransition from "@/components/PageTransition";
@@ -8,16 +8,16 @@ import { getMomentum } from "@/lib/momentum";
 
 const domains = [
   {
-    icon: MessageSquareText,
-    title: "Verbal Reasoning",
-    subtitle: "Coding & Decoding, Alphabet Series, Letter Patterns and more",
-    path: "/practice/verbal",
+    icon: Calculator,
+    title: "Arithmetic",
+    subtitle: "Ratio, Proportion, Percentage, Profit & Loss and more",
+    path: "/practice/arithmetic",
     locked: false,
   },
   {
-    icon: Shapes,
-    title: "Non-Verbal Reasoning",
-    subtitle: "Figure series, mirror images, pattern completion — coming soon",
+    icon: Sigma,
+    title: "Advanced Maths",
+    subtitle: "Algebra, Trigonometry, Geometry, Mensuration — coming soon",
     path: null,
     locked: true,
   },
@@ -55,7 +55,7 @@ export default function PracticeTab() {
         <div className="pt-12">
           <PageHeader
             hero="PRACTICE"
-            subtitle="Choose your reasoning domain and start practicing. Verbal covers language-based puzzles, Non-Verbal focuses on visual patterns and figures."
+            subtitle="Choose your mathematics domain and start practicing. Arithmetic covers fundamental concepts, Advanced Maths focuses on higher-level topics."
           />
         </div>
 

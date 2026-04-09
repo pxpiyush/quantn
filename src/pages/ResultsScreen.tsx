@@ -31,7 +31,7 @@ export default function ResultsScreen() {
       <div className="min-h-screen bg-background px-5 pt-16 pb-10 flex flex-col">
         <div>
           <div className="inline-flex items-center px-4 py-2 rounded-xl glass-effect bg-card/60 border border-border shadow-neumorphic mb-3">
-            <span className="text-base font-black tracking-tight text-foreground">REAZN</span>
+            <span className="text-base font-black tracking-tight text-foreground">NUMEN</span>
           </div>
           <div className="h-px bg-border mb-4" />
           <h1 className="text-hero text-foreground mb-8">RESULTS</h1>

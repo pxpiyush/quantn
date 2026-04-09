@@ -1,13 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Hash, ArrowLeftRight, Lightbulb } from "lucide-react";
+import { Divide, Equal, Lightbulb } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 import PressableCard from "@/components/PressableCard";
 import PageTransition from "@/components/PageTransition";
 
 const chapters = [
-  { icon: Hash, title: "Coding & Decoding", subtitle: "Practice encoding and decoding letter/number patterns", path: "/practice/coding" },
-  { icon: ArrowLeftRight, title: "Alphabet Test", subtitle: "Master alphabet positions, sequences and series", path: "/practice/coding" },
+  { icon: Divide, title: "Ratio", subtitle: "Practice comparing quantities and simplifying ratios", path: "/practice/coding" },
+  { icon: Equal, title: "Proportion", subtitle: "Master direct, inverse and compound proportions", path: "/practice/coding" },
 ];
 
 export default function VerbalPracticeScreen() {
@@ -18,8 +18,8 @@ export default function VerbalPracticeScreen() {
       <div className="min-h-screen pb-28 bg-background">
         <div className="pt-12">
           <PageHeader
-            hero="VERBAL"
-            subtitle="Practice language-based reasoning — coding patterns, alphabet positions and letter series to build speed and accuracy."
+            hero="ARITHMETIC"
+            subtitle="Practice fundamental arithmetic concepts — ratio, proportion and more to build speed and accuracy."
           />
         </div>
 
@@ -45,8 +45,8 @@ export default function VerbalPracticeScreen() {
               <Lightbulb size={18} className="text-muted-foreground mt-0.5 shrink-0" />
               <div>
                 <p className="text-xs font-bold tracking-widest-custom text-muted-foreground mb-1">EXAM TIP</p>
-                <p className="text-sm font-bold text-foreground">EJOTY — 5, 10, 15, 20, 25</p>
-                <p className="text-xs text-muted-foreground mt-1">E=5, J=10, O=15, T=20, Y=25. Memorize these anchor points!</p>
+                <p className="text-sm font-bold text-foreground">a:b = a/b</p>
+                <p className="text-xs text-muted-foreground mt-1">Ratio is just a fraction. Always simplify to lowest terms first!</p>
               </div>
             </div>
           </PressableCard>

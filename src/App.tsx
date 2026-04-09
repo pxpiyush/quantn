@@ -41,11 +41,11 @@ function AnimatedRoutes() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<SplashScreen />} />
         <Route path="/learn" element={<LearnTab />} />
-        <Route path="/learn/verbal" element={<LearnVerbalScreen />} />
+        <Route path="/learn/arithmetic" element={<LearnVerbalScreen />} />
         <Route path="/learn/alphabet-values" element={<AlphabetValuesScreen />} />
         <Route path="/learn/reverse-pairs" element={<ReverseLetterPairsScreen />} />
         <Route path="/practice" element={<PracticeTab />} />
-        <Route path="/practice/verbal" element={<VerbalPracticeScreen />} />
+        <Route path="/practice/arithmetic" element={<VerbalPracticeScreen />} />
         <Route path="/practice/coding" element={<SubTopicsScreen />} />
         <Route path="/practice/subtopics/:topic" element={<SubTopicsScreen />} />
         <Route path="/practice/duration/:type" element={<DurationScreen />} />
