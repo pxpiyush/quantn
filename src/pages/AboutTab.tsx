@@ -68,7 +68,7 @@ export default function AboutTab() {
               >
                 <p className="text-xs font-bold tracking-widest-custom text-muted-foreground mb-3">DEVELOPER</p>
                 <img
-                  src="https://lh3.googleusercontent.com/d/1KQo4GiRon3dqgtK-7TglfWg8Etr3Cjr8"
+                  src="https://drive.google.com/file/d/1KxC5nqRaPGFRk4ufyaUuFDTHrqwQDxkk"
                   alt="Developer signature"
                   className="w-40 h-auto object-contain mb-3 dark:invert dark:brightness-150"
                 />
