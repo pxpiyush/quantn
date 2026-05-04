@@ -6,8 +6,8 @@ import PressableCard from "@/components/PressableCard";
 import PageTransition from "@/components/PageTransition";
 
 const concepts = [
-  { icon: Divide, title: "Ratio", desc: "Learn how to compare quantities, simplify ratios and solve problems", path: "/learn/alphabet-values" },
-  { icon: Equal, title: "Proportion", desc: "Master direct, inverse and compound proportion concepts", path: "/learn/reverse-pairs" },
+  { icon: Divide, title: "Ratio", desc: "Learn how to compare quantities, simplify ratios and solve problems", path: "/learn/ratio" },
+  { icon: Equal, title: "Proportion", desc: "Master direct, inverse and compound proportion concepts", path: "/learn/proportion" },
   { icon: Clock, title: "Percentage", desc: "Percentage conversions and applications — coming soon", path: null },
 ];
 
