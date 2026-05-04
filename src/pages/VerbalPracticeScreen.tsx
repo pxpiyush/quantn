@@ -6,8 +6,8 @@ import PressableCard from "@/components/PressableCard";
 import PageTransition from "@/components/PageTransition";
 
 const chapters = [
-  { icon: Divide, title: "Ratio", subtitle: "Practice comparing quantities and simplifying ratios", path: "/practice/coding" },
-  { icon: Equal, title: "Proportion", subtitle: "Master direct, inverse and compound proportions", path: "/practice/coding" },
+  { icon: Divide, title: "Ratio", subtitle: "Practice comparing quantities and simplifying ratios", path: "/practice/ratio" },
+  { icon: Equal, title: "Proportion", subtitle: "Master direct, inverse and compound proportions", path: "/practice/proportion" },
 ];
 
 export default function VerbalPracticeScreen() {

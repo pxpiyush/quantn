@@ -28,6 +28,10 @@ import BookmarksScreen from "@/pages/BookmarksScreen";
 import AboutTab from "@/pages/AboutTab";
 import AlphabetValuesScreen from "@/pages/AlphabetValuesScreen";
 import ReverseLetterPairsScreen from "@/pages/ReverseLetterPairsScreen";
+import RatioPracticeScreen from "@/pages/RatioPracticeScreen";
+import ProportionPracticeScreen from "@/pages/ProportionPracticeScreen";
+import RatioLearnScreen from "@/pages/RatioLearnScreen";
+import ProportionLearnScreen from "@/pages/ProportionLearnScreen";
 import PrivacyScreen from "@/pages/PrivacyScreen";
 import CursorGlow from "@/components/CursorGlow";
 import NotFound from "@/pages/NotFound";
@@ -46,6 +50,10 @@ function AnimatedRoutes() {
         <Route path="/learn/reverse-pairs" element={<ReverseLetterPairsScreen />} />
         <Route path="/practice" element={<PracticeTab />} />
         <Route path="/practice/arithmetic" element={<VerbalPracticeScreen />} />
+        <Route path="/practice/ratio" element={<RatioPracticeScreen />} />
+        <Route path="/practice/proportion" element={<ProportionPracticeScreen />} />
+        <Route path="/learn/ratio" element={<RatioLearnScreen />} />
+        <Route path="/learn/proportion" element={<ProportionLearnScreen />} />
         <Route path="/practice/coding" element={<SubTopicsScreen />} />
         <Route path="/practice/subtopics/:topic" element={<SubTopicsScreen />} />
         <Route path="/practice/duration/:type" element={<DurationScreen />} />
