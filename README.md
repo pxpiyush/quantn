@@ -1,5 +1,5 @@
 # QUANTN
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/pxpiyush/quantn)
+
 
 QUANTN is a free, mobile-first mathematics practice platform designed for aspirants of SSC, Banking, Railways, and other competitive exams. It offers a comprehensive suite of tools to help you master quantitative aptitude, track your progress, and build exam-day confidence, with a focus on privacy and an offline-first experience.
 
@@ -24,39 +24,4 @@ QUANTN is a free, mobile-first mathematics practice platform designed for aspira
 
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
--   Node.js (v18 or later)
--   npm
-
-### Installation
-
-1.  Clone the repository:
-    ```sh
-    git clone https://github.com/pxpiyush/quantn.git
-    ```
-2.  Navigate to the project directory:
-    ```sh
-    cd quantn
-    ```
-3.  Install NPM packages:
-    ```sh
-    npm install
-    ```
-4.  Start the development server:
-    ```sh
-    npm run dev
-    ```
-    The application will be available at `http://localhost:8080`.
-
-## Available Scripts
-
-In the project directory, you can run:
-
--   `npm run dev`: Runs the app in development mode.
--   `npm run build`: Builds the app for production to the `dist` folder.
--   `npm run preview`: Serves the production build locally for preview.
--   `npm run lint`: Lints the source code using ESLint.
--   `npm run test`: Runs the test suite using Vitest.
+To get a local copy up and running, visit: ’https://quantn.lovable.app/’
