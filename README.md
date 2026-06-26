@@ -24,4 +24,4 @@ QUANTN is a free, mobile-first mathematics practice platform designed for aspira
 
 ## Getting Started
 
-To get a local copy up and running, visit: ’https://quantn.lovable.app/’
+To get a local copy up and running, visit: https://quantn.lovable.app
